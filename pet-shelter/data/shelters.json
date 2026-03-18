@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Asiel De Vriendelijke Poot",
+    "address": "Kerkstraat 12, 2000 Antwerpen",
+    "openHours": "Ma-Vr 10:00-17:00, Za 10:00-14:00",
+    "imageUrl": "/images/shelters/1.webp",
+    "phone": "+32 3 555 0101",
+    "email": "devriendelijkepoot@example.com",
+    "websiteUrl": "devriendelijkepoot.example.com"
+  },
+  {
+    "id": 2,
+    "name": "Dierenopvang Zonnestraal",
+    "address": "Markt 5, 9000 Gent",
+    "openHours": "Ma-Za 09:30-16:30",
+    "imageUrl": "/images/shelters/2.webp",
+    "phone": "+32 9 555 0202",
+    "email": "",
+    "websiteUrl": ""
+  },
+  {
+    "id": 3,
+    "name": "PawCare Limburg",
+    "address": "Stationsplein 3, 3500 Hasselt",
+    "openHours": "Di-Vr 11:00-18:00, Zo 11:00-15:00",
+    "imageUrl": "/images/shelters/3.webp",
+    "phone": "+32 11 555 0303",
+    "email": "pawcare@example.org",
+    "websiteUrl": "pawcare.example.org"
+  },
+  {
+    "id": 4,
+    "name": "Asiel Het Groene Hart",
+    "address": "Dorpsstraat 47, 3000 Leuven",
+    "openHours": "Ma-Vr 09:00-17:00, Za 10:00-13:00",
+    "imageUrl": "/images/shelters/4.webp",
+    "phone": "",
+    "email": "",
+    "websiteUrl": ""
+  },
+  {
+    "id": 5,
+    "name": "Dierenhuis Westhoek",
+    "address": "Kasteelstraat 8, 8600 Diksmuide",
+    "openHours": "Ma-Zo 10:00-16:00",
+    "imageUrl": "/images/shelters/5.webp",
+    "phone": "+32 58 555 0505",
+    "email": "dierenhuiswesthoek@example.net",
+    "websiteUrl": "dierenhuiswesthoek.example.net"
+  },
+  {
+    "id": 6,
+    "name": "Refuge De Stadsvriend",
+    "address": "Langestraat 21, 8500 Kortrijk",
+    "openHours": "Ma-Vr 10:00-16:00, Za 10:00-14:00",
+    "imageUrl": "/images/shelters/6.webp",
+    "phone": "+32 56 555 0606",
+    "email": "",
+    "websiteUrl": "refugedestadsvriend.example.com"
+  }
+]
