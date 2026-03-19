@@ -1,406 +1,370 @@
 [
-  {
-    "id": 1,
-    "name": "Milo",
-    "description": "Milo is een energieke jonge kat die houdt van spelen met touwtjes en zonnebaden op vensterbanken. Hij is sociaal naar mensen toe en kan goed overweg met andere katten. Milo is nieuwsgierig, speels en leert snel nieuwe trucjes. Hij is gecastreerd en heeft een zachte vacht die regelmatig borstelen nodig heeft.",
-    "isAvailable": true,
-    "age": 2,
-    "admissionDate": "2026-02-10",
-    "imageUrl": "/images/pets/1.webp",
-    "species": "Kat",
-    "gender": "Mannelijk",
-    "breed": "Europees Korthaar",
-    "characteristics": [
-      "Speels",
-      "Sociaal"
-    ],
-    "shelter": {
-      "id": 1,
-      "name": "Asiel De Vriendelijke Poot",
-      "address": "Kerkstraat 12, 2000 Antwerpen",
-      "openHours": "Ma-Vr 10:00-17:00, Za 10:00-14:00",
-      "imageUrl": "/images/shelters/1.webp",
-      "phone": "+32 3 555 0101",
-      "email": "devriendelijkepoot@example.com",
-      "websiteUrl": "devriendelijkepoot.example.com"
-    }
-  },
-  {
-    "id": 2,
-    "name": "",
-    "description": "Deze rustige volwassen hond geniet van rustige wandelingen en aandacht van het baasje. Ze is gehoorzaam bij training en houdt van korte speelsessies. Ideaal voor een gezin dat op zoek is naar een loyale, zachtaardige hond die graag dicht bij mensen is en goed reageert op positieve bekrachtiging.",
-    "isAvailable": true,
-    "age": 5,
-    "admissionDate": "2025-12-01",
-    "imageUrl": "/images/pets/2.webp",
-    "species": "Hond",
-    "gender": "Vrouwelijk",
-    "breed": "Labrador Retriever",
-    "characteristics": [
-      "Rustig",
-      "Loyaal"
-    ],
-    "shelter": {
-      "id": 1,
-      "name": "Asiel De Vriendelijke Poot",
-      "address": "Kerkstraat 12, 2000 Antwerpen",
-      "openHours": "Ma-Vr 10:00-17:00, Za 10:00-14:00",
-      "imageUrl": "/images/shelters/1.webp",
-      "phone": "+32 3 555 0101",
-      "email": "devriendelijkepoot@example.com",
-      "websiteUrl": "devriendelijkepoot.example.com"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Luna",
-    "description": "Luna is een zachtaardige kat die graag op schoot komt liggen en rustig omgaat met kinderen. Ze heeft een mooie grijze vacht en reageert goed op rustige aandacht. Luna is heel aanhankelijk en verlangt naar een liefdevol thuis waar ze veel knuffels en rustige momenten krijgt.",
-    "isAvailable": true,
-    "age": 3,
-    "admissionDate": "2026-01-15",
-    "imageUrl": "/images/pets/3.webp",
-    "species": "Kat",
-    "gender": "Vrouwelijk",
-    "breed": "Hybride Kruising",
-    "characteristics": [
-      "Aanhankelijk"
-    ],
-    "shelter": {
-      "id": 2,
-      "name": "Dierenopvang Zonnestraal",
-      "address": "Markt 5, 9000 Gent",
-      "openHours": "Ma-Za 09:30-16:30",
-      "imageUrl": "/images/shelters/2.webp",
-      "phone": "+32 9 555 0202",
-      "email": "",
-      "websiteUrl": ""
-    }
-  },
-  {
-    "id": 4,
-    "name": "",
-    "description": "Bink is een speelse jonge hond die veel energie heeft en graag leert. Hij is slim, enthousiast bij trainingen en geniet van apporteren. Bink floreert met dagelijkse beweging en speeltijd en zoekt een actief gezin dat hem mentaal en fysiek uitdaagt.",
-    "isAvailable": true,
-    "age": 1,
-    "admissionDate": "2026-02-25",
-    "imageUrl": "/images/pets/4.webp",
-    "species": "Hond",
-    "gender": "Mannelijk",
-    "breed": "Australian Shepherd",
-    "characteristics": [
-      "Speels",
-      "Intelligent"
-    ],
-    "shelter": {
-      "id": 3,
-      "name": "PawCare Limburg",
-      "address": "Stationsplein 3, 3500 Hasselt",
-      "openHours": "Di-Vr 11:00-18:00, Zo 11:00-15:00",
-      "imageUrl": "/images/shelters/3.webp",
-      "phone": "+32 11 555 0303",
-      "email": "pawcare@example.org",
-      "websiteUrl": "pawcare.example.org"
-    }
-  },
-  {
-    "id": 5,
-    "name": "Simba",
-    "description": "Simba is een aanhankelijke kater die graag buiten kijkt en af en toe jaagt op insecten in de tuin. Hij is zelfstandig maar waardeert ook menselijke aandacht. Zijn vacht is onderhoudsarm en hij is nieuwsgierig van aard.",
-    "isAvailable": true,
-    "age": 4,
-    "admissionDate": "2025-11-05",
-    "imageUrl": "/images/pets/5.webp",
-    "species": "Kat",
-    "gender": "Mannelijk",
-    "breed": "Europees Korthaar",
-    "characteristics": [
-      "Zelfstandig"
-    ],
-    "shelter": {
-      "id": 4,
-      "name": "Asiel Het Groene Hart",
-      "address": "Dorpsstraat 47, 3000 Leuven",
-      "openHours": "Ma-Vr 09:00-17:00, Za 10:00-13:00",
-      "imageUrl": "/images/shelters/4.webp",
-      "phone": "",
-      "email": "",
-      "websiteUrl": ""
-    }
-  },
-  {
-    "id": 6,
-    "name": "Noor",
-    "description": "Noor is een zachtaardige konijnendame die graag knabbelt en rustig door haar verblijf huppelt. Ze geniet van hooi, rustige aandacht en verstopspelletjes. Noor is gewend aan zachte stemmen en zoekt een gezin dat haar voldoende ruimte en verzorging biedt.",
-    "isAvailable": false,
-    "age": 2,
-    "admissionDate": "2025-10-20",
-    "imageUrl": "/images/pets/6.webp",
-    "species": "Konijn",
-    "gender": "Vrouwelijk",
-    "breed": "Huis-konijn",
-    "characteristics": [
-      "Rustig"
-    ],
-    "shelter": {
-      "id": 5,
-      "name": "Dierenhuis Westhoek",
-      "address": "Kasteelstraat 8, 8600 Diksmuide",
-      "openHours": "Ma-Zo 10:00-16:00",
-      "imageUrl": "/images/shelters/5.webp",
-      "phone": "+32 58 555 0505",
-      "email": "dierenhuiswesthoek@example.net",
-      "websiteUrl": "dierenhuiswesthoek.example.net"
-    }
-  },
-  {
-    "id": 7,
-    "name": "",
-    "description": "Tiny is een klein hamstertje dat graag in zijn wiel rent en graaft in zijn bodembedekking. Hij is vriendelijk voor kinderen en verlangt naar een verzorgde kooi met speeltjes en tunnels. Tiny is een vrolijk diertje met een nieuwsgierige aard.",
-    "isAvailable": true,
-    "age": 1,
-    "admissionDate": "2026-03-01",
-    "imageUrl": "/images/pets/7.webp",
-    "species": "Hamster",
-    "gender": "Onbekend",
-    "breed": "Syrische Hamster",
-    "characteristics": [
-      "Actief"
-    ],
-    "shelter": {
-      "id": 6,
-      "name": "Refuge De Stadsvriend",
-      "address": "Langestraat 21, 8500 Kortrijk",
-      "openHours": "Ma-Vr 10:00-16:00, Za 10:00-14:00",
-      "imageUrl": "/images/shelters/6.webp",
-      "phone": "+32 56 555 0606",
-      "email": "",
-      "websiteUrl": "refugedestadsvriend.example.com"
-    }
-  },
-  {
-    "id": 8,
-    "name": "Pippa",
-    "description": "Pippa is een levendige jonge hond die enthousiast is bij het zien van andere honden en mensen. Ze leert snel en geniet van speelsessies in het park. Pippa is vriendelijk, nieuwsgierig en gedijt goed met consistente training en liefdevolle begeleiding.",
-    "isAvailable": true,
-    "age": 2,
-    "admissionDate": "2026-01-05",
-    "imageUrl": "/images/pets/8.webp",
-    "species": "Hond",
-    "gender": "Vrouwelijk",
-    "breed": "Border Collie Kruising",
-    "characteristics": [
-      "Energetisch",
-      "Slim"
-    ],
-    "shelter": {
-      "id": 3,
-      "name": "PawCare Limburg",
-      "address": "Stationsplein 3, 3500 Hasselt",
-      "openHours": "Di-Vr 11:00-18:00, Zo 11:00-15:00",
-      "imageUrl": "/images/shelters/3.webp",
-      "phone": "+32 11 555 0303",
-      "email": "pawcare@example.org",
-      "websiteUrl": "pawcare.example.org"
-    }
-  },
-  {
-    "id": 9,
-    "name": "",
-    "description": "Fenna is een tamme cavia met een zachte vacht en rustige aard. Ze geniet van verse groente en hooi en is gewend aan handen die haar voorzichtig oppakken. Fenna zoekt een rustig huishouden of een vriendje om mee samen te wonen.",
-    "isAvailable": true,
-    "age": 1,
-    "admissionDate": "2026-02-18",
-    "imageUrl": "/images/pets/9.webp",
-    "species": "Cavia",
-    "gender": "Onbekend",
-    "breed": "Amerikaanse Cavia",
-    "characteristics": [
-      "Zachtaardig"
-    ],
-    "shelter": {
-      "id": 5,
-      "name": "Dierenhuis Westhoek",
-      "address": "Kasteelstraat 8, 8600 Diksmuide",
-      "openHours": "Ma-Zo 10:00-16:00",
-      "imageUrl": "/images/shelters/5.webp",
-      "phone": "+32 58 555 0505",
-      "email": "dierenhuiswesthoek@example.net",
-      "websiteUrl": "dierenhuiswesthoek.example.net"
-    }
-  },
-  {
-    "id": 10,
-    "name": "Olli",
-    "description": "Olli is een rustige oudere kat die van rustige plekjes houdt en geniet van korte knuffelmomenten. Hij is geduldig met kinderen en heeft een rustige persoonlijkheid die past bij een ontspannen huishouden. Olli heeft een zachte vacht en heeft baat bij regelmatige verzorging.",
-    "isAvailable": false,
-    "age": 9,
-    "admissionDate": "2024-08-30",
-    "imageUrl": "/images/pets/10.webp",
-    "species": "Kat",
-    "gender": "Mannelijk",
-    "breed": "Brits Korthaar",
-    "characteristics": [
-      "Rustig"
-    ],
-    "shelter": {
-      "id": 2,
-      "name": "Dierenopvang Zonnestraal",
-      "address": "Markt 5, 9000 Gent",
-      "openHours": "Ma-Za 09:30-16:30",
-      "imageUrl": "/images/shelters/2.webp",
-      "phone": "+32 9 555 0202",
-      "email": "",
-      "websiteUrl": ""
-    }
-  },
-  {
-    "id": 11,
-    "name": "Toby",
-    "description": "Toby is een vrolijke jonge hond die goed omgaat met kinderen en andere honden. Hij houdt van apporteren en oefenen met basiscommando's. Toby is vriendelijk, leergierig en zoekt een gezin dat hem voldoende beweging en aandacht geeft.",
-    "isAvailable": true,
-    "age": 2,
-    "admissionDate": "2026-02-12",
-    "imageUrl": "/images/pets/11.webp",
-    "species": "Hond",
-    "gender": "Mannelijk",
-    "breed": "Kruising",
-    "characteristics": [
-      "Vrolijk",
-      "Sociaal"
-    ],
-    "shelter": {
-      "id": 1,
-      "name": "Asiel De Vriendelijke Poot",
-      "address": "Kerkstraat 12, 2000 Antwerpen",
-      "openHours": "Ma-Vr 10:00-17:00, Za 10:00-14:00",
-      "imageUrl": "/images/shelters/1.webp",
-      "phone": "+32 3 555 0101",
-      "email": "devriendelijkepoot@example.com",
-      "websiteUrl": "devriendelijkepoot.example.com"
-    }
-  },
-  {
-    "id": 12,
-    "name": "Moes",
-    "description": "Moes is een nieuwsgierig konijn dat houdt van rennen in een veilige ren en van vers hooi. Hij is vriendelijk naar mensen en kan goed omgaan met zachte aandacht. Moes heeft een zachte vacht en is gewend aan regelmatige verzorging en speeltijd.",
-    "isAvailable": true,
-    "age": 1,
-    "admissionDate": "2026-02-02",
-    "imageUrl": "/images/pets/12.webp",
-    "species": "Konijn",
-    "gender": "Mannelijk",
-    "breed": "Nederlandse Hangoor Kruising",
-    "characteristics": [
-      "Actief"
-    ],
-    "shelter": {
-      "id": 5,
-      "name": "Dierenhuis Westhoek",
-      "address": "Kasteelstraat 8, 8600 Diksmuide",
-      "openHours": "Ma-Zo 10:00-16:00",
-      "imageUrl": "/images/shelters/5.webp",
-      "phone": "+32 58 555 0505",
-      "email": "dierenhuiswesthoek@example.net",
-      "websiteUrl": "dierenhuiswesthoek.example.net"
-    }
-  },
-  {
-    "id": 13,
-    "name": "",
-    "description": "Kiki is een slimme en nieuwsgierige kat die graag klimmen en verkennen. Ze heeft veel persoonlijkheid en toont regelmatig speelse streken. Kiki zoekt een actief thuis met ruimte om te spelen en klimmen, idealiter met veilige buitenmogelijkheden.",
-    "isAvailable": true,
-    "age": 3,
-    "admissionDate": "2026-01-28",
-    "imageUrl": "/images/pets/13.webp",
-    "species": "Kat",
-    "gender": "Vrouwelijk",
-    "breed": "Maine Coon Kruising",
-    "characteristics": [
-      "Speels",
-      "Nieuwsgierig"
-    ],
-    "shelter": {
-      "id": 4,
-      "name": "Asiel Het Groene Hart",
-      "address": "Dorpsstraat 47, 3000 Leuven",
-      "openHours": "Ma-Vr 09:00-17:00, Za 10:00-13:00",
-      "imageUrl": "/images/shelters/4.webp",
-      "phone": "",
-      "email": "",
-      "websiteUrl": ""
-    }
-  },
-  {
-    "id": 14,
-    "name": "Rex",
-    "description": "Rex is een sterke, trouwe hond die geschikt is voor ervaren eigenaren. Hij is loyaal en beschermend, maar reageert goed op consistente, vriendelijke training. Rex heeft behoefte aan dagelijkse beweging en duidelijke grenzen.",
-    "isAvailable": true,
-    "age": 6,
-    "admissionDate": "2025-09-14",
-    "imageUrl": "/images/pets/14.webp",
-    "species": "Hond",
-    "gender": "Mannelijk",
-    "breed": "Duitse Herder Kruising",
-    "characteristics": [
-      "Beschermend"
-    ],
-    "shelter": {
-      "id": 3,
-      "name": "PawCare Limburg",
-      "address": "Stationsplein 3, 3500 Hasselt",
-      "openHours": "Di-Vr 11:00-18:00, Zo 11:00-15:00",
-      "imageUrl": "/images/shelters/3.webp",
-      "phone": "+32 11 555 0303",
-      "email": "pawcare@example.org",
-      "websiteUrl": "pawcare.example.org"
-    }
-  },
-  {
-    "id": 15,
-    "name": "",
-    "description": "Maggie is een zachtaardige oudere kat die geniet van rustige hoekjes en zachte aandacht. Ze is aanpasbaar en houdt van een rustig ritme, ideaal voor iemand die een kalme metgezel zoekt.",
-    "isAvailable": true,
-    "age": 8,
-    "admissionDate": "2025-06-30",
-    "imageUrl": "/images/pets/15.webp",
-    "species": "Kat",
-    "gender": "Vrouwelijk",
-    "breed": "Europees Korthaar",
-    "characteristics": [],
-    "shelter": {
-      "id": 2,
-      "name": "Dierenopvang Zonnestraal",
-      "address": "Markt 5, 9000 Gent",
-      "openHours": "Ma-Za 09:30-16:30",
-      "imageUrl": "/images/shelters/2.webp",
-      "phone": "+32 9 555 0202",
-      "email": "",
-      "websiteUrl": ""
-    }
-  },
-  {
-    "id": 16,
-    "name": "Bubbles",
-    "description": "Bubbles is een levendige cavia die van groepsgezelschap houdt en graag verse groenten eet. Ze is speels en vriendelijk en gedijt het best met dagelijkse interactie en voldoende hooi. Bubbles is gewend aan zachte handen en zoekt een huis waar ze veel aandacht krijgt.",
-    "isAvailable": true,
-    "age": 1,
-    "admissionDate": "2026-03-10",
-    "imageUrl": "/images/pets/16.webp",
-    "species": "Cavia",
-    "gender": "Vrouwelijk",
-    "breed": "Peruviaanse Cavia Kruising",
-    "characteristics": [
-      "Sociaal"
-    ],
-    "shelter": {
-      "id": 6,
-      "name": "Refuge De Stadsvriend",
-      "address": "Langestraat 21, 8500 Kortrijk",
-      "openHours": "Ma-Vr 10:00-16:00, Za 10:00-14:00",
-      "imageUrl": "/images/shelters/6.webp",
-      "phone": "+32 56 555 0606",
-      "email": "",
-      "websiteUrl": "refugedestadsvriend.example.com"
-    }
-  }
+	{
+		"id": 1,
+		"name": "Bobby",
+		"description": "Bobby is een vriendelijke jonge hond die dol is op wandelingen en spelen met balletjes. Hij reageert goed op basiscommando's en zoekt een actief gezin dat hem veel aandacht geeft en stimuleert. Bij het asiel toonde hij veel nieuwsgierigheid naar nieuwe mensen en situaties.",
+		"isAvailable": true,
+		"age": 3,
+		"admissionDate": "2026-02-10",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/1.webp",
+		"species": "Hond",
+		"gender": "Mannelijk",
+		"breed": "Labrador kruising",
+		"characteristics": ["Speels", "Sociaal"],
+		"shelter": {
+			"id": 1,
+			"name": "Dierenopvang De Vlaspit",
+			"address": "Korteveld 12, 2300 Turnhout, Vlaanderen",
+			"openHours": "ma-za 10:00-17:00, zo gesloten",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/1.webp",
+			"phone": "+32 14 55 12 34",
+			"email": "contact@devlaspit.example.com",
+			"websiteUrl": "devlaspit.example.com"
+		}
+	},
+	{
+		"id": 2,
+		"name": "",
+		"description": "Dit jong katertje is nog wat terughoudend, maar toont veel nieuwsgierigheid naar speelgoed en nieuwe geuren; hij heeft zachte vacht en een rustige energie die langzaam opwarmt. Verzorging en geduld helpen hem snel vertrouwen op te bouwen waardoor hij aanhankelijker wordt.",
+		"isAvailable": true,
+		"age": 1,
+		"admissionDate": "2026-01-15",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/2.webp",
+		"species": "Kat",
+		"gender": "Mannelijk",
+		"breed": "Europees Korthaar",
+		"characteristics": ["Terughoudend", "Nieuwsgierig"],
+		"shelter": {
+			"id": 2,
+			"name": "Asiel Zonnestraal",
+			"address": "Lindelaan 5, 9000 Gent, Vlaanderen",
+			"openHours": "ma-vr 09:00-18:00, za 10:00-16:00, zo 13:00-16:00",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/2.webp",
+			"phone": "+32 9 22 33 444",
+			"email": "",
+			"websiteUrl": "zonnestraal.example.org"
+		}
+	},
+	{
+		"id": 3,
+		"name": "Mila",
+		"description": "Mila is een kalme en aanhankelijke kat die graag op schoot kruipt en spint bij zachte aanraking. Ze kan goed overweg met rustige kinderen en andere katten mits geleidelijke kennismaking; haar verzorging vereist regelmatig borstelen vanwege haar halflange vacht.",
+		"isAvailable": false,
+		"age": 5,
+		"admissionDate": "2025-11-02",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/3.webp",
+		"species": "Kat",
+		"gender": "Vrouwelijk",
+		"breed": "Noorse Boskat",
+		"characteristics": ["Aanhankelijk", "Rustig", "Knuffelig"],
+		"shelter": {
+			"id": 3,
+			"name": "Stadsdierenasiel Merelbeke",
+			"address": "Groenestraat 48, 9820 Merelbeke, Vlaanderen",
+			"openHours": "ma-za 11:00-16:00",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/3.webp",
+			"phone": "+32 9 33 44 555",
+			"email": "info@merelbeke.example.net",
+			"websiteUrl": ""
+		}
+	},
+	{
+		"id": 4,
+		"name": "Charlie",
+		"description": "Charlie is een energieke hond die van rennen en spelen houdt en veel structuur nodig heeft. Hij leert snel en reageert goed op duidelijke routines. Ideaal voor een actief gezin of iemand die vaak buiten is en hem voldoende beweging kan geven.",
+		"isAvailable": true,
+		"age": 2,
+		"admissionDate": "2026-03-01",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/4.webp",
+		"species": "Hond",
+		"gender": "Mannelijk",
+		"breed": "Border Collie kruising",
+		"characteristics": ["Energiek", "Leergierig", "Actief"],
+		"shelter": {
+			"id": 1,
+			"name": "Dierenopvang De Vlaspit",
+			"address": "Korteveld 12, 2300 Turnhout, Vlaanderen",
+			"openHours": "ma-za 10:00-17:00, zo gesloten",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/1.webp",
+			"phone": "+32 14 55 12 34",
+			"email": "contact@devlaspit.example.com",
+			"websiteUrl": "devlaspit.example.com"
+		}
+	},
+	{
+		"id": 5,
+		"name": "",
+		"description": "Een klein konijntje met zachte vacht en levendige oren, nog wat voorzichtig maar speels met hooi en speelgoed. Met liefde en regelmatige omgang groeit het uit tot een vrijmoedige kameraad die graag knabbelt en onderzoekt.",
+		"isAvailable": true,
+		"age": 1,
+		"admissionDate": "2026-02-20",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/5.webp",
+		"species": "Konijn",
+		"gender": "Vrouwelijk",
+		"breed": "Huis konijn",
+		"characteristics": ["Speels"],
+		"shelter": {
+			"id": 4,
+			"name": "Vrienden van Pootjes",
+			"address": "Kastanjelaan 88, 9530 Geraardsbergen, Vlaanderen",
+			"openHours": "ma-zo 10:00-15:00 (op afspraak buiten deze uren)",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/4.webp",
+			"phone": "",
+			"email": "",
+			"websiteUrl": "vriendenvanpootjes.example.net"
+		}
+	},
+	{
+		"id": 6,
+		"name": "Sjakie",
+		"description": "Sjakie is een lief caviaatje dat graag wordt opgepakt en zachtjes geaaid. Hij eet goed, houdt van groente en zoekt gezelschap van soortgenoten. Zijn vacht is kort en glanzend en hij is gewend aan dagelijkse verzorging.",
+		"isAvailable": true,
+		"age": 2,
+		"admissionDate": "2025-12-05",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/6.webp",
+		"species": "Cavia",
+		"gender": "Mannelijk",
+		"breed": "Amerikaans Korthaar",
+		"characteristics": ["Gezellig"],
+		"shelter": {
+			"id": 5,
+			"name": "Randstad Dierenzorg",
+			"address": "Oude Steenweg 3, 3000 Leuven, Vlaanderen",
+			"openHours": "ma-vr 08:30-17:30, za 09:00-14:00",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/5.webp",
+			"phone": "+32 16 78 90 12",
+			"email": "contact@randstad.example.com",
+			"websiteUrl": ""
+		}
+	},
+	{
+		"id": 7,
+		"name": "Luna",
+		"description": "Luna is een speelse jonge kat die van klimmen en onderzoek houdt; ze is slim en leert snel trucjes met speeltjes. Ze verlangt naar een huis met veel stimulatie en veilige klimmogelijkheden, en ze past goed in een huishouden met oudere kinderen.",
+		"isAvailable": true,
+		"age": 1,
+		"admissionDate": "2026-03-05",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/7.webp",
+		"species": "Kat",
+		"gender": "Vrouwelijk",
+		"breed": "Europees Korthaar",
+		"characteristics": ["Speels", "Slim"],
+		"shelter": {
+			"id": 6,
+			"name": "Pluim & Poot",
+			"address": "Stationsplein 1, 8400 Oostende, Vlaanderen",
+			"openHours": "ma-vr 10:00-17:00, za 10:00-13:00",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/6.webp",
+			"phone": "+32 59 12 34 56",
+			"email": "info@pluimenpoot.example.org",
+			"websiteUrl": "pluimenpoot.example.com"
+		}
+	},
+	{
+		"id": 8,
+		"name": "Zorro",
+		"description": "Zorro is een loyale en beschermende hond die goed reageert op commando's en baat heeft bij consequente leiding. Hij is sterk en fit en heeft baat bij dagelijkse stevige wandelingen of rensessies.",
+		"isAvailable": false,
+		"age": 6,
+		"admissionDate": "2025-07-18",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/8.webp",
+		"species": "Hond",
+		"gender": "Mannelijk",
+		"breed": "Duitse Herder kruising",
+		"characteristics": ["Loyaal", "Waakzaam"],
+		"shelter": {
+			"id": 1,
+			"name": "Dierenopvang De Vlaspit",
+			"address": "Korteveld 12, 2300 Turnhout, Vlaanderen",
+			"openHours": "ma-za 10:00-17:00, zo gesloten",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/1.webp",
+			"phone": "+32 14 55 12 34",
+			"email": "contact@devlaspit.example.com",
+			"websiteUrl": "devlaspit.example.com"
+		}
+	},
+	{
+		"id": 9,
+		"name": "",
+		"description": "Een zacht hamstertje dat graag in haar rad rent en stukjes groente eet; zij is klein van stuk maar nieuwsgierig en heeft af en toe rustig contact nodig. Het diertje is perfect voor een rustig huishouden of als eerste huisdier voor kinderen met begeleiding.",
+		"isAvailable": true,
+		"age": 1,
+		"admissionDate": "2026-01-28",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/9.webp",
+		"species": "Hamster",
+		"gender": "Vrouwelijk",
+		"breed": "Syrische Hamster",
+		"characteristics": [],
+		"shelter": {
+			"id": 2,
+			"name": "Asiel Zonnestraal",
+			"address": "Lindelaan 5, 9000 Gent, Vlaanderen",
+			"openHours": "ma-vr 09:00-18:00, za 10:00-16:00, zo 13:00-16:00",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/2.webp",
+			"phone": "+32 9 22 33 444",
+			"email": "",
+			"websiteUrl": "zonnestraal.example.org"
+		}
+	},
+	{
+		"id": 10,
+		"name": "Nora",
+		"description": "Nora is een zachtaardige kat die van rustige middagen en zonplekjes houdt; ze is vriendelijk naar bezoekers en gewend aan mensen. Ze zoekt een huis waar ze veel knuffels en zachte aandacht krijgt, en ze vindt opruiming en regelmaat fijn.",
+		"isAvailable": true,
+		"age": 4,
+		"admissionDate": "2025-10-10",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/10.webp",
+		"species": "Kat",
+		"gender": "Vrouwelijk",
+		"breed": "Britse Korthaar",
+		"characteristics": ["Zachtaardig", "Rustig"],
+		"shelter": {
+			"id": 3,
+			"name": "Stadsdierenasiel Merelbeke",
+			"address": "Groenestraat 48, 9820 Merelbeke, Vlaanderen",
+			"openHours": "ma-za 11:00-16:00",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/3.webp",
+			"phone": "+32 9 33 44 555",
+			"email": "info@merelbeke.example.net",
+			"websiteUrl": ""
+		}
+	},
+	{
+		"id": 11,
+		"name": "Max",
+		"description": "Max is een stabiele en vrolijke hond met veel liefde voor apporteren en contact met mensen; hij past goed in een gezin en gedijt goed bij duidelijke routines. Zijn baas zoekt iemand die geduldig is en dagelijks met hem wandelt.",
+		"isAvailable": true,
+		"age": 5,
+		"admissionDate": "2025-09-01",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/11.webp",
+		"species": "Hond",
+		"gender": "Mannelijk",
+		"breed": "Golden Retriever kruising",
+		"characteristics": ["Vriendelijk", "Sociaal"],
+		"shelter": {
+			"id": 6,
+			"name": "Pluim & Poot",
+			"address": "Stationsplein 1, 8400 Oostende, Vlaanderen",
+			"openHours": "ma-vr 10:00-17:00, za 10:00-13:00",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/6.webp",
+			"phone": "+32 59 12 34 56",
+			"email": "info@pluimenpoot.example.org",
+			"websiteUrl": "pluimenpoot.example.com"
+		}
+	},
+	{
+		"id": 12,
+		"name": "",
+		"description": "Dit jong caviaatje zoekt een rustige plek met voldoende hooi en gezelschap; het is nieuwsgierig, maar houdt van korte aaibeurten en regelmatige verzorging. Met aandacht wordt het erg tam en aanhankelijk.",
+		"isAvailable": true,
+		"age": 1,
+		"admissionDate": "2026-02-01",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/12.webp",
+		"species": "Cavia",
+		"gender": "Vrouwelijk",
+		"breed": "Abyssinian",
+		"characteristics": ["Nieuwsgierig"],
+		"shelter": {
+			"id": 5,
+			"name": "Randstad Dierenzorg",
+			"address": "Oude Steenweg 3, 3000 Leuven, Vlaanderen",
+			"openHours": "ma-vr 08:30-17:30, za 09:00-14:00",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/5.webp",
+			"phone": "+32 16 78 90 12",
+			"email": "contact@randstad.example.com",
+			"websiteUrl": ""
+		}
+	},
+	{
+		"id": 13,
+		"name": "Pip",
+		"description": "Pip is een klein katertje met veel karakter: nieuwsgierig, avontuurlijk en niet bang om verstopplekjes te verkennen. Hij houdt van rennen, jagen op veertjes en het ontdekken van nieuwe kartonnen doosjes; ideale speelkameraad voor actieve eigenaren.",
+		"isAvailable": true,
+		"age": 1,
+		"admissionDate": "2026-03-12",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/13.webp",
+		"species": "Kat",
+		"gender": "Mannelijk",
+		"breed": "Europees Korthaar",
+		"characteristics": ["Avontuurlijk", "Speels"],
+		"shelter": {
+			"id": 6,
+			"name": "Pluim & Poot",
+			"address": "Stationsplein 1, 8400 Oostende, Vlaanderen",
+			"openHours": "ma-vr 10:00-17:00, za 10:00-13:00",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/6.webp",
+			"phone": "+32 59 12 34 56",
+			"email": "info@pluimenpoot.example.org",
+			"websiteUrl": "pluimenpoot.example.com"
+		}
+	},
+	{
+		"id": 14,
+		"name": "",
+		"description": "Een oudere kat met rustige aard en een zachte vacht; ze geniet van korte knuffels en een warm plekje bij het raam. Ze heeft een rustige routine nodig en waardeert voorspelbaarheid en geduld van haar nieuwe eigenaar.",
+		"isAvailable": false,
+		"age": 9,
+		"admissionDate": "2024-06-20",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/14.webp",
+		"species": "Kat",
+		"gender": "Vrouwelijk",
+		"breed": "Europees Korthaar",
+		"characteristics": ["Rustig"],
+		"shelter": {
+			"id": 3,
+			"name": "Stadsdierenasiel Merelbeke",
+			"address": "Groenestraat 48, 9820 Merelbeke, Vlaanderen",
+			"openHours": "ma-za 11:00-16:00",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/3.webp",
+			"phone": "+32 9 33 44 555",
+			"email": "info@merelbeke.example.net",
+			"websiteUrl": ""
+		}
+	},
+	{
+		"id": 15,
+		"name": "Bo",
+		"description": "Bo is een vrolijke jonge hond die goed omgaat met andere dieren en graag mee op avontuur gaat. Ze is leergierig, houdt van apporteren en gedijt goed in gezinnen met veel activiteit en duidelijke regels.",
+		"isAvailable": true,
+		"age": 2,
+		"admissionDate": "2026-01-05",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/15.webp",
+		"species": "Hond",
+		"gender": "Vrouwelijk",
+		"breed": "Staffordshire Bull Terrier kruising",
+		"characteristics": ["Vrolijk", "Speels"],
+		"shelter": {
+			"id": 7,
+			"name": "Hart voor Dieren Kortrijk",
+			"address": "Meensesteenweg 120, 8500 Kortrijk, Vlaanderen",
+			"openHours": "di-zo 11:00-17:00, ma gesloten",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/7.webp",
+			"phone": "+32 56 77 88 99",
+			"email": "",
+			"websiteUrl": "hartvoordieren.example.com"
+		}
+	},
+	{
+		"id": 16,
+		"name": "",
+		"description": "Een klein en rustig konijntje dat van knabbelen en zacht hooi houdt; ideaal voor iemand die op zoek is naar een rustig huisdier dat weinig ruimte nodig heeft, mits juiste verzorging en toezicht.",
+		"isAvailable": true,
+		"age": 2,
+		"admissionDate": "2026-03-03",
+		"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/16.webp",
+		"species": "Konijn",
+		"gender": "Mannelijk",
+		"breed": "Huis konijn",
+		"characteristics": [],
+		"shelter": {
+			"id": 4,
+			"name": "Vrienden van Pootjes",
+			"address": "Kastanjelaan 88, 9530 Geraardsbergen, Vlaanderen",
+			"openHours": "ma-zo 10:00-15:00 (op afspraak buiten deze uren)",
+			"imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/4.webp",
+			"phone": "",
+			"email": "",
+			"websiteUrl": "vriendenvanpootjes.example.net"
+		}
+	}
 ]

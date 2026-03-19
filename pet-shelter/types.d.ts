@@ -20,7 +20,7 @@ export interface Pet {
     admissionDate: string;
 
     /** De URL naar een foto van het huisdier. */
-    imageUrl: string; // "/images/pets/<id>.webp"
+    imageUrl: string; // "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/pets/<id>.webp"
 
     /** Het soort dier. */
     species: PetSpecies; // 5 katten en honden, 2 konijnen, cavia's en hamsters
@@ -32,10 +32,10 @@ export interface Pet {
     breed: string;
 
     /** De karaktereigenschappen en trekken van het huisdier, bv. "Speels", "Rustig", "Komt graag buiten", ... */
-    characteristics: string[]; // 0-3 eigenschappen per dier, mogen breed zijn
+    characteristics: string[]; // 0-3 eigenschappen/trekken per dier, 1-3 woorden per eigenschap/trek
 
     /** Het dierenasiel waar het huisdier zich bevindt (uit `shelters.json`). */
-    shelter: Shelter; // Mag enkel het ID van een asiel zijn om het kort te houden
+    shelter: Shelter; // 1 asiel met 0 dieren, 1 asiel met 1, 2 asiels met 2, 2 asiels met 3, 2 asiels met 4
 }
 
 /** De soorten huisdieren die gekend zijn in deze applicatie. */
@@ -43,7 +43,7 @@ export type PetSpecies = "Kat" | "Hond" | "Konijn" | "Cavia" | "Hamster";
 
 export type PetGender = "Mannelijk" | "Vrouwelijk";
 
-// 6 items in shelters.json
+// 7 items in shelters.json
 /** Informatie over een dierenasiel (uit `shelters.json`). */
 export interface Shelter {
     /** De ID voor dit dierenasiel. */
@@ -59,7 +59,7 @@ export interface Shelter {
     openHours: string;
 
     /** De URL naar een foto van de buitenkant van het asiel. */
-    imageUrl: string; // "/images/shelters/<id>.webp"
+    imageUrl: string; // "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/<id>.webp"
 
     /** Het telefoonnummer van het asiel, als deze er een heeft, anders is dit een lege string. */
     phone: string; // Moet geldig zijn en overeenkomen met de regio uit het adres; 1 keer leeg laten

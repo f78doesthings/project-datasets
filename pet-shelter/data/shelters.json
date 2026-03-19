@@ -1,62 +1,72 @@
 [
   {
     "id": 1,
-    "name": "Asiel De Vriendelijke Poot",
-    "address": "Kerkstraat 12, 2000 Antwerpen",
-    "openHours": "Ma-Vr 10:00-17:00, Za 10:00-14:00",
-    "imageUrl": "/images/shelters/1.webp",
-    "phone": "+32 3 555 0101",
-    "email": "devriendelijkepoot@example.com",
-    "websiteUrl": "devriendelijkepoot.example.com"
+    "name": "Dierenopvang De Vlaspit",
+    "address": "Korteveld 12, 2300 Turnhout, Vlaanderen",
+    "openHours": "ma-za 10:00-17:00, zo gesloten",
+    "imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/1.webp",
+    "phone": "+32 14 55 12 34",
+    "email": "contact@devlaspit.example.com",
+    "websiteUrl": "devlaspit.example.com"
   },
   {
     "id": 2,
-    "name": "Dierenopvang Zonnestraal",
-    "address": "Markt 5, 9000 Gent",
-    "openHours": "Ma-Za 09:30-16:30",
-    "imageUrl": "/images/shelters/2.webp",
-    "phone": "+32 9 555 0202",
+    "name": "Asiel Zonnestraal",
+    "address": "Lindelaan 5, 9000 Gent, Vlaanderen",
+    "openHours": "ma-vr 09:00-18:00, za 10:00-16:00, zo 13:00-16:00",
+    "imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/2.webp",
+    "phone": "+32 9 22 33 444",
     "email": "",
-    "websiteUrl": ""
+    "websiteUrl": "zonnestraal.example.org"
   },
   {
     "id": 3,
-    "name": "PawCare Limburg",
-    "address": "Stationsplein 3, 3500 Hasselt",
-    "openHours": "Di-Vr 11:00-18:00, Zo 11:00-15:00",
-    "imageUrl": "/images/shelters/3.webp",
-    "phone": "+32 11 555 0303",
-    "email": "pawcare@example.org",
-    "websiteUrl": "pawcare.example.org"
-  },
-  {
-    "id": 4,
-    "name": "Asiel Het Groene Hart",
-    "address": "Dorpsstraat 47, 3000 Leuven",
-    "openHours": "Ma-Vr 09:00-17:00, Za 10:00-13:00",
-    "imageUrl": "/images/shelters/4.webp",
-    "phone": "",
-    "email": "",
+    "name": "Stadsdierenasiel Merelbeke",
+    "address": "Groenestraat 48, 9820 Merelbeke, Vlaanderen",
+    "openHours": "ma-za 11:00-16:00",
+    "imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/3.webp",
+    "phone": "+32 9 33 44 555",
+    "email": "info@merelbeke.example.net",
     "websiteUrl": ""
   },
   {
+    "id": 4,
+    "name": "Vrienden van Pootjes",
+    "address": "Kastanjelaan 88, 9530 Geraardsbergen, Vlaanderen",
+    "openHours": "ma-zo 10:00-15:00 (op afspraak buiten deze uren)",
+    "imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/4.webp",
+    "phone": "",
+    "email": "",
+    "websiteUrl": "vriendenvanpootjes.example.net"
+  },
+  {
     "id": 5,
-    "name": "Dierenhuis Westhoek",
-    "address": "Kasteelstraat 8, 8600 Diksmuide",
-    "openHours": "Ma-Zo 10:00-16:00",
-    "imageUrl": "/images/shelters/5.webp",
-    "phone": "+32 58 555 0505",
-    "email": "dierenhuiswesthoek@example.net",
-    "websiteUrl": "dierenhuiswesthoek.example.net"
+    "name": "Randstad Dierenzorg",
+    "address": "Oude Steenweg 3, 3000 Leuven, Vlaanderen",
+    "openHours": "ma-vr 08:30-17:30, za 09:00-14:00",
+    "imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/5.webp",
+    "phone": "+32 16 78 90 12",
+    "email": "contact@randstad.example.com",
+    "websiteUrl": ""
   },
   {
     "id": 6,
-    "name": "Refuge De Stadsvriend",
-    "address": "Langestraat 21, 8500 Kortrijk",
-    "openHours": "Ma-Vr 10:00-16:00, Za 10:00-14:00",
-    "imageUrl": "/images/shelters/6.webp",
-    "phone": "+32 56 555 0606",
+    "name": "Pluim & Poot",
+    "address": "Stationsplein 1, 8400 Oostende, Vlaanderen",
+    "openHours": "ma-vr 10:00-17:00, za 10:00-13:00",
+    "imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/6.webp",
+    "phone": "+32 59 12 34 56",
+    "email": "info@pluimenpoot.example.org",
+    "websiteUrl": "pluimenpoot.example.com"
+  },
+  {
+    "id": 7,
+    "name": "Hart voor Dieren Kortrijk",
+    "address": "Meensesteenweg 120, 8500 Kortrijk, Vlaanderen",
+    "openHours": "di-zo 11:00-17:00, ma gesloten",
+    "imageUrl": "https://raw.githubusercontent.com/f78doesthings/project-datasets/refs/heads/main/pet-shelter/images/shelters/7.webp",
+    "phone": "+32 56 77 88 99",
     "email": "",
-    "websiteUrl": "refugedestadsvriend.example.com"
+    "websiteUrl": "hartvoordieren.example.com"
   }
 ]
