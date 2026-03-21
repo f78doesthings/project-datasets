@@ -1,0 +1,25 @@
+{
+  "name": "dataset-tools",
+  "version": "1.0.0",
+  "description": "Some crude tools for my project datasets.",
+  "license": "ISC",
+  "author": "f78",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.9",
+    "@types/cli-progress": "^3.11.6",
+    "@types/readline-sync": "^1.4.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@commander-js/extra-typings": "^14.0.0",
+    "chalk": "^5.6.2",
+    "cli-progress": "^3.12.0",
+    "commander": "^14.0.3",
+    "readline-sync": "^1.4.10"
+  }
+}

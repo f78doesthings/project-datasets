@@ -1,0 +1,39 @@
+{
+  "positive": {
+    "pets/1": "A picture of a cute, playful, social 3 year old young masculine domestic dog (a Labrador, to be exact) , outside near an animal shelter's entrance, alone, side angle",
+    "pets/2": "A picture of a cute, reluctant, curious 1 year old young masculine domestic cat (a European Shorthair, to be exact)  with soft fur, inside an animal shelter, alone, side angle",
+    "pets/3": "A picture of a cute, calm, cuddly 5 year old feminine domestic cat (a Norwegian Forest Cat, to be exact)  with somewhat long black fur, inside an animal shelter, alone, looking slightly toward camera",
+    "pets/4": "A picture of a cute, energetic, active 2 year old masculine domestic dog (a Border Collie, to be exact) , outside near an animal shelter's entrance, alone, looking slightly toward camera",
+    "pets/5": "A picture of a cute, playful 1 year old young feminine domestic rabbit with soft fur, outside in an animal shelter, alone",
+    "pets/6": "A picture of a cute, sociable 2 year old masculine domestic guinea pig with short, shiny fur, inside an animal shelter, alone, side angle",
+    "pets/7": "A picture of a cute, playful, clever 1 year old young feminine domestic cat (a American Shorthair, to be exact)  with white fur, inside an animal shelter, alone",
+    "pets/8": "A picture of a cute, loyal, vigilant 6 year old masculine domestic dog (a German Shepherd, to be exact) , inside an animal shelter, alone",
+    "pets/9": "A picture of a cute, 1 year old young feminine domestic hamster (a golden hamster, to be exact) , inside an animal shelter, alone, side angle",
+    "pets/10": "A picture of a cute, gentle, calm 4 year old feminine domestic cat (a British Shorthair, to be exact)  with blue tabby fur, inside an animal shelter, alone",
+    "pets/11": "A picture of a cute, friendly, social 5 year old masculine domestic dog (a Golden Retriever, to be exact) , outside in a park, alone, side angle",
+    "pets/12": "A picture of a cute, curious 1 year old young feminine domestic guinea pig, inside an animal shelter, alone, looking slightly toward camera",
+    "pets/13": "A picture of a cute, adventurous, playful 1 year old young masculine domestic cat (a European Shorthair, to be exact)  with red tabby fur, inside an animal shelter, alone",
+    "pets/14": "A picture of a cute, calm 9 year old feminine domestic cat (a Norwegian Forest Cat, to be exact)  with soft cream tabby fur, inside an animal shelter, alone",
+    "pets/15": "A picture of a cute, happy, playful 2 year old young feminine domestic dog (a Staffordshire Bull Terrier, to be exact) , outside in a park, alone, looking slightly toward camera, side angle",
+    "pets/16": "A picture of a cute, 2 year old masculine domestic rabbit, inside an animal shelter, alone, looking slightly toward camera, side angle",
+    "shelters/1": "A photograph of the outside of a somewhat long animal shelter and its entrance, with an indoors reception area, and with kennels both inside and outside, located in a town in Flanders, Belgium",
+    "shelters/2": "A photograph of the outside of a somewhat long animal shelter and its entrance, with an indoors reception area, and with kennels both inside and outside, located in a town in Flanders, Belgium",
+    "shelters/3": "A photograph of the outside of a somewhat long animal shelter and its entrance, with an indoors reception area, and with kennels both inside and outside, located in a town in Flanders, Belgium",
+    "shelters/4": "A photograph of the outside of a fairly large, modern animal shelter and its entrance, with an indoors reception area, and with kennels both inside and outside, located in a town in Flanders, Belgium",
+    "shelters/5": "A photograph of the outside of a somewhat long, modern animal shelter and its entrance, with an indoors reception area, and with kennels both inside and outside, located in a town in Flanders, Belgium",
+    "shelters/6": "A photograph of the outside of a somewhat long animal shelter and its entrance, with an indoors reception area, and with kennels both inside and outside, located in a town in Flanders, Belgium",
+    "shelters/7": "A photograph of the outside of a fairly large, modern animal shelter and its entrance, with an indoors reception area, and with kennels both inside and outside, located in a town in Flanders, Belgium"
+  },
+  "seed": {
+    "shelters/1": 3339053282757855,
+    "shelters/2": 1975669943539307,
+    "shelters/3": 7574360524910403,
+    "shelters/4": 8703548387304279,
+    "shelters/5": 4584485220284859,
+    "shelters/6": 2090104626297273,
+    "shelters/7": 1117808899916225
+  },
+  "negative": {
+    "shelters": "cartoon, anime, illustration, CGI, 3D render, plastic skin, waxy, porcelain, doll-like, oversmoothed, airbrushed, uncanny, mangled anatomy, unrealistic reflections, melted objects, low-res, compression artifacts, banding, oversharpened halos, text, watermark, logo, warped lines or bricks, signs, humans outside of the reception area, animals outside of the kennels"
+  }
+}
