@@ -25,8 +25,12 @@ putting comments in the [TypeScript declarations](./types.d.ts) (which are also 
 fashion it still hallucinated a bit and didn't follow some of them. *(Oh, and it also didn't give me code blocks like
 the first time I tried to generate it, so copying was a bit annoying...)*
 
-One of the mistakes it made was assigning cat breeds to hamsters, which I've corrected manually. I wouldn't be surprised
-if there are more of these mistakes that I haven't found yet.
+One of the mistakes it made was confusing guinea pig breeds with similar cat ones, which I've corrected manually.
+It also messed up some of the counts I asked for, although I actually messed one of those up in the prompt. I wouldn't
+be surprised if there are more of these mistakes...
+
+*Well, I did end up using the local model for the last pet in the dataset (which was added later), because the dataset
+was too big to paste into Duck.ai. Probably could've given it the TypeScript declarations again, but it's fine.)*
 
 ### Images
 
@@ -36,6 +40,7 @@ with [Qwen Image 2512](https://huggingface.co/unsloth/Qwen-Image-2512-GGUF) (a q
 of my lack of VRAM again, which probably reduced the output quality a fair bit).
 
 I created the prompts and automatically generated and converted the images
-with [this crude program](../dataset-tools) that I spent way too much time writing. You can find the
-prompts it used in [this JSON file](./images/prompts.json). And they're in English this time around! *(because it made
-the images a bit better)*
+with [this very crude program](../dataset-tools) that I spent way too much time writing. You can find the
+prompts it ended up with in [this JSON file](./images/prompts.json), although many of them will be outdated or
+incorrect, either because of a bug in my program or because the AI produced bad images. But hey, at least they're in
+English this time around. *(because it made the images a bit better)*

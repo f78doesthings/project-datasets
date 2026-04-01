@@ -8,4 +8,4 @@ when and where it's allowed.
 
 ## List of datasets
 
-- [Pet Shelter](./pet-shelter) (Dutch)
+- [Pet Shelter](./pet-shelter) - 16 pets in 7 animal shelters (Dutch)

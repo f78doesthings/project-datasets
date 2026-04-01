@@ -2,7 +2,7 @@
   "name": "dataset-tools",
   "version": "1.0.0",
   "description": "Some crude tools for my project datasets.",
-  "license": "ISC",
+  "license": "CC0-1.0",
   "author": "f78",
   "main": "index.ts",
   "scripts": {
